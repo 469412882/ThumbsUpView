@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="prise_count_text_size">12sp</dimen>
-    <dimen name="prise_count_left_margin">5dp</dimen>
-    <dimen name="thumbs_child_margin">20dp</dimen>
 
 </resources>

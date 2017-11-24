@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThumbsUpCountView">
+        <attr name="thumbsup_on_drawable" format="reference" />
+        <attr name="thumbsup_off_drawable" format="reference" />
+        <attr name="thumbsup_on_decoration_drawable" format="reference" />
+        <attr name="thumbsup_on_show_circle" format="boolean" />
+        <attr name="thumbsup_on_show_decoration" format="boolean" />
+        <attr name="thumbsup_on_circle_color" format="color" />
+        <attr name="thumbsup_on_text_color" format="color" />
+        <attr name="thumbsup_off_text_color" format="color" />
+        <attr name="thumbsup_text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>

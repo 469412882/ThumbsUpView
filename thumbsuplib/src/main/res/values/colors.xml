@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thumbs_text_color">#999999</color>
+    <color name="thumbs_circle_color">#22F95C39</color>
+</resources>

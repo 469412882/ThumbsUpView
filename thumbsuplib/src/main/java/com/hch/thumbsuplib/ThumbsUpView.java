@@ -1,4 +1,4 @@
-package com.hch.thumbsup;
+package com.hch.thumbsuplib;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -6,6 +6,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
+import com.hch.thumbsuplib.ThumbsUpCountView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
