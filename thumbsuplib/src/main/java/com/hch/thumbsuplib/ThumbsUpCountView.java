@@ -126,7 +126,7 @@ public class ThumbsUpCountView extends LinearLayout {
         this.mThumbsUp = thumbsUp;
         this.mPriseCount = priseCount;
         thumbsUpView.initThumbsUpOn(thumbsUp);
-        priseCountView.setCount(priseCount);
+        priseCountView.setCount(priseCount, thumbsUp);
     }
 
     public void setAnimDuration(long duration){
@@ -141,7 +141,7 @@ public class ThumbsUpCountView extends LinearLayout {
         }
         mThumbsUp = !mThumbsUp;
         thumbsUpView.setThumbsUpOn(mThumbsUp);
-        priseCountView.setCount(mPriseCount);
+        priseCountView.setCount(mPriseCount, mThumbsUp);
     }
 
     public int getPriseCount() {

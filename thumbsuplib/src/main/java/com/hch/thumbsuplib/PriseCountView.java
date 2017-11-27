@@ -37,7 +37,7 @@ public class PriseCountView extends View {
     /** 动画偏移量 */
     private float offsetYProgress;
     /** 动画执行进度 */
-    private float mFraction;
+    private float mFraction = 1f;
     /** 画笔 */
     private Paint mPaint;
     /** 三个要画的数字 */
@@ -71,9 +71,10 @@ public class PriseCountView extends View {
         this.mDuration = duration;
     }
 
-    public void setCount(int count) {
+    public void setCount(int count, boolean isPriseOn) {
         mOldCount = mCount;
         this.mCount = count;
+        this.isPriseOn = isPriseOn;
         if (analysisCount()) {
             startAnim();
         } else {
@@ -116,7 +117,7 @@ public class PriseCountView extends View {
             mTextCount[2] = "";
             return false;
         }
-        offYBaseline = (isPriseOn = mCount > mOldCount) ? 1 : -1;
+        offYBaseline = mCount > mOldCount ? 1 : -1;
         String countStr = String.valueOf(mCount);
         String oldCountStr = String.valueOf(mOldCount);
         /* 位数发生变化了 */
