@@ -36,9 +36,9 @@ dependencies {
 
 publish {
     userOrg = 'huach'//bintray.com用户名
-    groupId = 'com.hch'//jcenter上的路径
+    groupId = 'com.huach'//jcenter上的路径
     artifactId = 'thumbsupview'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.1'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
     website = 'https://github.com/469412882/ThumbsUpView'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }

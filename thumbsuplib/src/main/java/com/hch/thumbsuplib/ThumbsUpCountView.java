@@ -148,4 +148,8 @@ public class ThumbsUpCountView extends LinearLayout {
         return mPriseCount;
     }
 
+    public boolean isPriseOn(){
+        return mThumbsUp;
+    }
+
 }
